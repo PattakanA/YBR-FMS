@@ -325,7 +325,7 @@ lines\_detect\_num++;
 
 
 Youtube Links: <br>
-https://youtu.be/7kWcytFyiAU (Time 37 sec) <br>
+https://youtu.be/7kWcytFyiAU (Time 31 sec) <br>
 
 
 **THE END**

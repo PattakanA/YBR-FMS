@@ -329,11 +329,9 @@ lines\_detect\_num++;
 
 }
 ```
-
-Part 2 <br>
+ Part 2 <br>
 Youtube Link: <br>
-Qualification Round: <br>
-https://youtu.be/7kWcytFyiAU (Time 31 sec) <br>
+Qualification Round: https://youtu.be/7kWcytFyiAU (Time 31 sec) <br>
 
 
 **THE END**

@@ -85,6 +85,7 @@ Require program
 **Required Libraries**
 
 To be able to use the sensors, many libraries need to be downloaded and included in this project. The libraries that will need to be downloaded will depend on what sensors you use. Most of these libraries are very crucial for completing the Qualification rounds and Final rounds.
+```c
 
 #include "Mapf.h"
 
@@ -161,6 +162,7 @@ zeroYaw();
 while (analogRead(BUTTON) \<= 500);
 
 }
+```
 
 ---------------------------------------------------------------
 
@@ -183,6 +185,7 @@ Variables that affect the steering incudes:
 
 **----------------------------------------------------------------------------**
 
+```c
 void loop() {
 
 long countdown\_stop = millis();
@@ -238,6 +241,8 @@ steering\_servo(degree);
 motor(map(abs(degree), 0, 45, 80, 40));
 
 }
+```
+
 
 **Turn the robot when a line is detected - There are 2 lines on each corner of the field. This program detects those lines and adjusts the robot heading.**
 
@@ -245,6 +250,7 @@ Variables that affect the turning of the robot include:
 
 -The Reflected light values measured by the Light Sensors
 
+```c
 void line\_detection() {
 
 int blue\_value = analogRead(BLUE\_SEN);
@@ -322,6 +328,7 @@ lines\_detect\_num++;
 }
 
 }
+```
 
 Part 2 <br>
 Youtube Link: <br>
